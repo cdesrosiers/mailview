@@ -1,3 +1,7 @@
 = Mailview
 
+Extremely simple Rails plugin to save and view email sent from an app
+
 This project rocks and uses MIT-LICENSE.
+
+
