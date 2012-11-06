@@ -1,1 +1,5 @@
-<li><%= raw(mail.html) %></li>
+<li class="message">
+<%= raw(mail.html) %><br />
+Sent <%= mail.created_at.to_s(:long) %>
+<hr>
+</li>
