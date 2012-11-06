@@ -1,6 +1,16 @@
-= Mailview
+Mailview
+========
 
 Extremely simple Rails plugin to save and view email sent from an app
+
+Install
+-------
+
+Add the gem to your `Gemfile`:
+
+    gem 'mail_view', :git => 'https://github.com/cdesrosiers/mailview.git'
+
+And run `bundle install`.
 
 This project rocks and uses MIT-LICENSE.
 
