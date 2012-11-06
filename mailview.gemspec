@@ -7,11 +7,11 @@ require "mailview/version"
 Gem::Specification.new do |s|
   s.name        = "mailview"
   s.version     = Mailview::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Mailview."
-  s.description = "TODO: Description of Mailview."
+  s.authors     = ["Corey Desrosiers"]
+  s.email       = ["cmdesrosiers@gmail.com"]
+  s.homepage    = "https://github.com/cdesrosiers"
+  s.summary     = "Simple plugin to save and view email sent from an application"
+  s.description = "Registers an inceptor with ActionMailer::Base to save a message to the database before sending it out."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
